@@ -1,0 +1,29 @@
+Usuários no Linux
+whoami        # usuário atual
+id            # info do usuário
+
+Permissões (FUNDAMENTAL)
+
+Formato:
+
+r = leitura
+w = escrita
+x = execução
+
+
+Exemplo:
+
+-rwxr-xr--
+
+Alterar permissões
+chmod 755 arquivo.sh
+chmod +x script.sh
+
+Dono do arquivo
+chown usuario:grupo arquivo.txt
+
+🔍 Buscar arquivos
+find / -name arquivo.txt
+
+find ~ -name arquivo.txt    (com sudo, admin supremo)
+find /home -name arquivo.txt

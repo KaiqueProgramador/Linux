@@ -1,0 +1,21 @@
+Estrutura de diretórios (ESSENCIAL)
+/        -> raiz do sistema
+/home   -> usuários
+/etc    -> configurações
+/bin    -> comandos básicos
+/var    -> logs e serviços
+/tmp    -> arquivos temporários
+
+Comandos básicos
+pwd        # mostra onde você está
+ls         # lista arquivos
+ls -l      # lista detalhada
+cd pasta   # entra na pasta
+cd ..      # volta
+clear      # limpa tela
+
+Criar e remover arquivos
+touch arquivo.txt
+mkdir pasta
+rm arquivo.txt
+rm -r pasta

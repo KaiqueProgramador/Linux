@@ -1,0 +1,20 @@
+Instalar programas (Ubuntu/Debian)
+sudo apt update
+sudo apt install nginx
+sudo apt remove nginx
+
+Atualizar sistema
+sudo apt upgrade
+
+Serviços (systemd)
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+systemctl enable nginx
+
+Uso do sistema
+top   (sair q)
+htop
+df -h     # disco
+free -h   # memória

@@ -1,0 +1,27 @@
+Shell Script básico
+#!/bin/bash
+echo "Olá, Linux!"
+
+
+Executar:
+
+chmod +x script.sh
+./script.sh
+
+Variáveis
+nome="Carlos"
+echo "Olá $nome"
+
+🔁 Loop
+for i in 1 2 3
+do
+  echo $i
+done
+
+Automatização com cron
+crontab -e
+
+
+Exemplo (todo dia às 2h):
+
+0 2 * * * /home/user/backup.sh
